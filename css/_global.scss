@@ -181,6 +181,31 @@ table {
     width:900px;
 }
 
+tc.h1 { 
+    background-color: rgb(150, 60, 120);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .tc_head {
+    background-color: yellowgreen;  
+    font-family: cursive;
+  }
+  
+  .tc_main {
+    color: rgb(15, 37, 236);
+  }
+  
+  #RED {
+    text-align:center;
+    color: red;
+  }
+  
+  #left {
+    text-align: left;
+  }
+  
+
 input[type=submit],input[type=reset] {
     font-size: 20px;
     background-color:#05d69b;
