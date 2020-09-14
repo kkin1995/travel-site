@@ -191,48 +191,6 @@ header .tag-line {
   cursor: pointer;
 }
 
-table, th, td {
-  border: 2px solid black;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 10px;
-}
-
-th {
-  text-align: center;
-}
-
-table {
-  height: 100px;
-  width: 900px;
-}
-
-tc.h1 {
-  background-color: #963c78;
-  font-size: large;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.tc_head {
-  background-color: yellowgreen;
-  font-family: cursive;
-}
-
-.tc_main {
-  color: #0f25ec;
-}
-
-#RED {
-  text-align: center;
-  color: red;
-}
-
-#left {
-  text-align: left;
-}
-
 input[type=submit], input[type=reset] {
   font-size: 20px;
   background-color: #05d69b;
@@ -266,4 +224,46 @@ fieldset {
   background: linear-gradient(90deg, #0b0473 29%, #090979 68%, #040b83 69%, #096bba 100%);
   height: 100px;
 }
+
+table, th, td {
+  background-color: rgb(128, 255, 1);
+  border:3px solid rgb(170, 15, 15);
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+table {
+  height: 40%;
+  width: 90%;
+}
+
+tc.h1 {
+  background-color: #963c78;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tc_head {
+  background-color: yellowgreen;
+  font-family: cursive;
+}
+
+.tc_main {
+  color: #0f25ec;
+}
+
+#RED {
+  text-align: center;
+  color: red;
+}
+
+#left {
+  text-align: left;
+}
+
+
+
 /*# sourceMappingURL=styles.css.map */
